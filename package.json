@@ -2,7 +2,7 @@
   "name": "sudo-von-surveillance-system",
   "version": "0.0.3",
   "description": "Monitor your space with advanced security.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "start:dev": "npx nodemon",
     "start:release": "standard-version"

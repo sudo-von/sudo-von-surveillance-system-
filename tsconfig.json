@@ -12,6 +12,7 @@
     "resolveJsonModule": true,
     "typeRoots": ["node_modules/@types"]
   },
+  "files": ["src/main.ts"],
   "include": ["src"],
   "exclude": ["node_modules"]
 }
