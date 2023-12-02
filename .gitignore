@@ -1,2 +1,4 @@
 # Dependencies [📦].
 node_modules
+# Building files [🗄️].
+build

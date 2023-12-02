@@ -4,7 +4,8 @@
   "description": "Monitor your space with advanced security.",
   "main": "index.js",
   "scripts": {
-    "release": "standard-version"
+    "start:dev": "npx nodemon",
+    "start:release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -23,8 +24,12 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
+    "@types/node": "^20.10.2",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^8.0.3"
+    "husky": "^8.0.3",
+    "nodemon": "^3.0.2",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
   },
   "config": {
     "commitizen": {
