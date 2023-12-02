@@ -13,6 +13,6 @@
     "typeRoots": ["node_modules/@types"]
   },
   "files": ["src/main.ts"],
-  "include": ["src"],
+  "include": ["src/*"],
   "exclude": ["node_modules"]
 }
