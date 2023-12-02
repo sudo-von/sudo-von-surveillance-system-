@@ -24,6 +24,7 @@
   "devDependencies": {
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
+    "@types/koa": "^2.13.12",
     "@types/node": "^20.10.2",
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^8.0.3",
@@ -37,6 +38,7 @@
     }
   },
   "dependencies": {
+    "koa": "^2.14.2",
     "standard-version": "^9.5.0"
   }
 }
