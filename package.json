@@ -1,0 +1,37 @@
+{
+  "name": "sudo-von-surveillance-system",
+  "version": "0.0.0",
+  "description": "Monitor your space with advanced security.",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudo-von/von-surveillance-system.git"
+  },
+  "keywords": [
+    "von",
+    "surveillance-system"
+  ],
+  "author": "Jesús Ángel Rodríguez Martínez 'VoN'",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudo-von/von-surveillance-system/issues"
+  },
+  "homepage": "https://github.com/sudo-von/von-surveillance-system#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^8.0.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "dependencies": {
+    "standard-version": "^9.5.0"
+  }
+}
